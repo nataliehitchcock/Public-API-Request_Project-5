@@ -68,7 +68,7 @@
           // Cell Number
           modalWindow += '<p class="modal-text"><b>' + 'Cell Phone:' + '</b>' + ' ' + data.results[employeeIndex].cell + '</p>';
   
-          // Address: including street name and number, state or province, and postal code
+          // Address: including street name and number, state/ province, and postal code
           modalWindow += '<p class="modal-text cap"><b>' + 'Address:' + '</b>' + '<br>';
           modalWindow += data.results[employeeIndex].location.street + '<br>' + data.results[employeeIndex].location.city +  ', ' + data.results[employeeIndex].location.state + ' ' + data.results[employeeIndex].location.postcode + '</p>';
   
